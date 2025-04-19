@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme._2023158066_31" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+       <item name="colorPrimary">#B7B7E9</item>
+        <item name="colorOnPrimary">#000000</item>
+        <item name="colorSurface">#ffffff</item>
+        <item name="actionBarStyle">@style/actionBar</item>
+    </style>
+
+    <style name="Theme._2023158066_31" parent="Base.Theme._2023158066_31" />
+
+    <style name="actionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="backgroundColor">@color/bg_color</item>
+
+    </style>
+
+</resources>

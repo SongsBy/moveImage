@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/more1"
+        android:title="imageMover"
+        app:showAsAction="never"
+        android:contentDescription="More1">
+    </item>
+
+    <item android:id="@+id/more2"
+        android:title="애니메이션"
+        app:showAsAction="never"
+        android:contentDescription="More2">
+    </item>
+
+    <item android:id="@+id/manage"
+        android:title="manage"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:contentDescription="Manage">
+    </item>
+
+
+</menu>
